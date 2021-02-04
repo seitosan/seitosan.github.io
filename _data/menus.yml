@@ -1,9 +1,0 @@
----
-header:
-  - url: /projects
-    title: Personal Projets
-    identifier: projectw
-  - url: /k8s
-    title: Kubernetes
-    identifier: k8s
----
