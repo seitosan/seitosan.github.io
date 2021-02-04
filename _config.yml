@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
 title: Nospof Blog
 description: Enter the nospof universe
-plugins:
-- jekyll-menus
 include:
    - _pages
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
