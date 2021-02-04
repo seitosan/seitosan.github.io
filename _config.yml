@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
 title: Nospof Blog
 description: Enter the nospof universe
+plugins:
+- jekyll-menus
