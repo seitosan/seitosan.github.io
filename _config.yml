@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 title: Nospof Blog
 description: Enter the nospof universe
 include:
