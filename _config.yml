@@ -3,3 +3,5 @@ title: Nospof Blog
 description: Enter the nospof universe
 plugins:
 - jekyll-menus
+include:
+   - _pages
