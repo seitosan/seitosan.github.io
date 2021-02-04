@@ -1,3 +1,8 @@
+---
+title: Homepage
+menus: header
+---
+
 <ul>
 {% for item in site.menus.header %}
   <li class="menu-item-{{ loop.index }}">
