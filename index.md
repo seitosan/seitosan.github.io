@@ -1,12 +1,7 @@
----
-title: Homepage
-menus: header
----
-
-<ul>
-{% for item in site.menus.header %}
-  <li class="menu-item-{{ loop.index }}">
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
