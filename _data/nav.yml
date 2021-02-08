@@ -3,7 +3,5 @@ main:
      url: /
    - title: "About"
      url: /about/
-   - title: "Projects"
-     url: /projects/
-   - title: "Kubernetes"
-     url: "/k8s"
+   - title: "YaCat"
+     url: "/yacat"
