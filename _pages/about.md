@@ -7,7 +7,7 @@
 
 Passionate about computers and new technologies, I am curious about everything. I have some curiosity about public clouds and their automation. 
 
-You can find more information about me in my linkedin : [myProfile](https://www.linkedin.com/in/valentinmariette/)
+You can find more information about me in my linkedin : [myProfile](https://www.linkedin.com/in/valentinmariette/) and on my  [youracclaim](https://www.youracclaim.com/users/valentin-mariette)
 
 
 # Honor Wall
