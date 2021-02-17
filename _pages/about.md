@@ -13,7 +13,7 @@ You can find more information about me in my linkedin : [myProfile](https://www.
 # Honor Wall
 
 ## Kubernetes
-![ckad](/assets/img/ckad.png)![cka](/assets/img/cka.png)
+![ckad](/assets/img/ckad.png){:height="20%" width="30%"}![cka](/assets/img/cka.png){:height="20%" width="30%"}
 
 ## Microsoft
-![az-104](/assets/img/azure-administrator-associate.png)![az-900](/assets/img/azure-fundamentals-600x600.png)
+![az-104](/assets/img/azure-administrator-associate.png){:height="20%" width="30%"} ![az-900](/assets/img/azure-fundamentals-600x600.png){:height="20%" width="30%"}
