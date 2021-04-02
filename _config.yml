@@ -8,4 +8,4 @@ paginate_path: /page:num/
 plugins:
    - jekyll-include-cache
    - jekyll-seo-tag
-google_analytics: G-6GS5Y0NZEQ
+google_analytics: G-VSL9YS512G
