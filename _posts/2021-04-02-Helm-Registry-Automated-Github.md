@@ -121,41 +121,49 @@ The following allows you to create an action github. This github action is split
       run: terraform init
 ```
 - Terraform plan :
+
 ```yaml
     - name: Terraform Plan
       run: terraform plan
 ```
+
 - Terraform apply :
+
 ```yaml
     - name: Terraform Apply
       run: terraform apply -auto-approve
 ```
+
 - Terraform output to file : 
+
 ```yaml
 
       - name: Terraform Output to file
         run: terraform output url_blob >> ./output
-      
 ```
+
 - Helm create index file:
+
 ```yaml
   
       - name: Helm create index
         uses: WyriHaximus/github-action-helm3@v2
         with:
           exec: helm repo index --url "https://${TF_VAR_sa_name}.blob.core.windows.net/${TF_VAR_ctn_name}" .
-
 ```
+
 - Azure login with azure cli:
+
 ```yaml
 
       - name: Azure Login
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-
 ```
+
 - Azure cli upload index.yaml : 
+
 ```yaml
 
       - name: Azure CLI script file
@@ -168,7 +176,9 @@ The following allows you to create an action github. This github action is split
             az storage blob upload --container-name  ${TF_VAR_ctn_name} --file index.yaml  --name index.yaml 
 
 ```
+
 - Test Helm repo :
+
 ```yaml
 
       - name: Test the repo helm
@@ -177,7 +187,9 @@ The following allows you to create an action github. This github action is split
           exec: helm repo add azure "https://${TF_VAR_sa_name}.blob.core.windows.net/${TF_VAR_ctn_name}"
 
 ```
+
 - Update Helm Repo:
+
 ```yaml
 
       - name: Update repo
@@ -186,7 +198,9 @@ The following allows you to create an action github. This github action is split
           exec: helm repo update
 
 ```
+
 - Terraform destroy if pipeline failed: 
+
 ```yaml
 
       - name: Terraform Destroy
