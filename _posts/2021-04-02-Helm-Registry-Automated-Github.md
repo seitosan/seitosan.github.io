@@ -1,5 +1,6 @@
 ---
 excerpt_separator: <!--more-->
+catégories: ["helm","automation"]
 ---
 # Helm registry with Terraform and Github Actions on Azure Storage
 
