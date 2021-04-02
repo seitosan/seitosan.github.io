@@ -1,7 +1,11 @@
+---
+excerpt_separator: <!--more-->
+---
 # Helm registry with Terraform and Github Actions on Azure Storage
 
-This article is a guide to create a Terraform script to upload a storage account as a Registry Helm. The script is instantiated in a Github Actions pipeline.
+This article is a guide to create a Terraform script to make a storage account as a Registry Helm. The script is instantiated in a Github Actions pipeline. 
 
+<!--more-->
 ## Requirement
 
 To use the resources in this article you will need:
