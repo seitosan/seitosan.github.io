@@ -5,3 +5,5 @@ main:
      url: /about/
    - title: "YaCat"
      url: "/yacat"
+   - title: "Search"
+     url: "/search"
